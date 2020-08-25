@@ -1,5 +1,5 @@
-# CRU-APP
-CRU APP
+# CRD-APP
+CRD APP
 
 This application facilitates a connection to MongoDB and then allows a user to insert and delete items to an from the MongoDB database. Setup requirements:
 
