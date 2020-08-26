@@ -5,7 +5,7 @@ let mongodb = require('mongodb')
 let db
 
 app.use(express.static('public'))
-let connectionstring = 'mongodb+srv://todoappuser:Djdjegdo786@cluster0.bmhff.mongodb.net/ToDoApp?retryWrites=true&w=majority'
+let connectionstring = 'mongodb+srv://todoappuser:123456789123#@cluster0.bmhff.mongodb.net/ToDoApp?retryWrites=true&w=majority'
 mongodb.connect(connectionstring, {useNewUrlParser: true, useUnifiedTopology: true}, function(err, client){
     db = client.db();
     app.listen(3000)
